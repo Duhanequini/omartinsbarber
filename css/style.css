@@ -266,6 +266,52 @@ body{
     display: block;
 }
 
+footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 20px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.footer-container p {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #c9a227;
+}
+
+.footer-copy {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
 /* =========================
    HERO - CELULAR
 ========================= */
