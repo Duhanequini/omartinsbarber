@@ -259,84 +259,56 @@
 
         </section>
 
-        <!-- GALERIA
-       <section class="container py-5">
+        <section class="container py-5 galeria">
 
             <h2 class="text-center mb-4">Nossos Cortes</h2>
 
-            <div class="row g-3">
+            <div class="carrossel">
 
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <img src="img/corte_1.jpeg" class="img-fluid rounded corte" alt="Corte masculino">
+                <button class="carrossel-btn anterior" aria-label="Imagem anterior">
+                    &#10094;
+                </button>
+
+                <div class="carrossel-viewport">
+
+                    <div class="carrossel-track">
+
+                        <div class="slide">
+                            <img src="img/corte_1.jpeg" alt="Corte masculino">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/corte_2.jpeg" alt="Corte masculino">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/corte_3.jpeg" alt="Corte masculino">
+                        </div>
+
+                        <div class="slide">
+                            <img src="img/corte_4.jpeg" alt="Corte masculino">
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <img src="img/corte_2.jpeg" class="img-fluid rounded corte" alt="Corte masculino">
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <img src="img/corte_3.jpeg" class="img-fluid rounded corte" alt="Corte masculino">
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <img src="img/corte_4.jpeg" class="img-fluid rounded corte" alt="Corte masculino">
-                </div>
+                <button class="carrossel-btn proximo" aria-label="Próxima imagem">
+                    &#10095;
+                </button>
 
             </div>
 
-        </section> -->
+            <div class="indicadores">
 
-        <!-- GALERIA -->
-<section class="container py-5 galeria">
-
-    <h2 class="text-center mb-4">Nossos Cortes</h2>
-
-    <div class="carrossel">
-
-        <button class="carrossel-btn anterior" aria-label="Imagem anterior">
-            &#10094;
-        </button>
-
-        <div class="carrossel-viewport">
-
-            <div class="carrossel-track">
-
-                <div class="slide">
-                    <img src="img/corte_1.jpeg" alt="Corte masculino">
-                </div>
-
-                <div class="slide">
-                    <img src="img/corte_2.jpeg" alt="Corte masculino">
-                </div>
-
-                <div class="slide">
-                    <img src="img/corte_3.jpeg" alt="Corte masculino">
-                </div>
-
-                <div class="slide">
-                    <img src="img/corte_4.jpeg" alt="Corte masculino">
-                </div>
+                <button class="indicador ativo" data-slide="0"></button>
+                <button class="indicador" data-slide="1"></button>
+                <button class="indicador" data-slide="2"></button>
+                <button class="indicador" data-slide="3"></button>
 
             </div>
 
-        </div>
-
-        <button class="carrossel-btn proximo" aria-label="Próxima imagem">
-            &#10095;
-        </button>
-
-    </div>
-
-    <div class="indicadores">
-
-        <button class="indicador ativo" data-slide="0"></button>
-        <button class="indicador" data-slide="1"></button>
-        <button class="indicador" data-slide="2"></button>
-        <button class="indicador" data-slide="3"></button>
-
-    </div>
-
-</section>
+        </section>
 
         <section id="contato" class="contato py-5">
             <div class="container">
